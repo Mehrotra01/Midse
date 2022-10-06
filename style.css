@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 13, 13);
+    padding: 12px ;
+}
+.navBar .logo{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navBar ul{
+    list-style: none;
+} 
+.navBar i{
+    color: #29d9d5;
+    font-size: 38px;
+    position: relative;
+    top: 1px;
+}
+.navBar ul li{
+    display: inline-block;
+    margin: 6px 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+ .book_trail{
+    border-radius: 22px;
+    border: 1px solid #29d9d5;
+   padding: 6px 22px;
+   background-color: rgb(36, 13, 13);
+    color: #29d9d5;
+    font-family: "Poppins";font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.navBar ul li:hover{
+    color:#29d9d5
+}
+.book_trail:hover{
+    color:  rgb(36, 13, 13);
+    background-color: #29d9d5;
+}
+.heading{
+    background-color: #F0E1E3;
+    height: 80px;
+    border-radius: 12px;
+    width: 98%;
+    position: relative;
+    left: 5px;
+}
+.heading h2{
+    color: #191B85;
+    text-transform: capitalize;
+font-size: 22px;
+font-weight: 600;
+position: relative;
+top: 8px;
+left: 14px;
+font-family: "Poppins";
+
+}
+.heading p{
+    font-family: "Poppins";
+    margin: 8px;
+    font-size: 14px;
+    color: #4c4847;
+}
+.image_gallery{
+    width: 1150px;
+    position: relative;
+    left: 180px;
+    top: 30px;
+    /* border: 1px solid black; */
+}
+.gridGallery{
+    display: grid;
+    gap: 2px;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  top: 30px;
+}
+.gridGallery img{
+    width: 370px;
+    height: 220px;
+    border-radius: 9px;
+    content: '';
+    z-index: 1;
+}
+
+.gridGallery img:hover{
+    filter: grayscale(1.8);
+    
+    z-index: 2;
+}
+.gridGallery img :hover i{
+    visibility: visible;
+}
+.gridGallery img i{
+    visibility: hidden;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+.Banner{
+    background-image: url(./imgaes/banner\ \(2\).jpg) ;
+    width: 100%;
+    margin-top: 50px ;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bannerinfo{
+    position: relative;
+    top: 60px;
+    left: 530px;
+}
+.bannerinfo h4{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-spacing: 2px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.bannerinfo h1{
+    
+    color: #fff;
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    left: -110px;
+    word-spacing: 2px;
+
+}
+.bannerinfo p{
+    align-self:center ;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-spacing: 2px;
+    color: #fff;
+    position: relative;
+    left: -80px;
+    margin: 12px;
+}
+.bannerinfo button{
+    border-radius: 22px;
+    border: 1px solid #29d9d5;
+   padding: 6px 22px;
+   background-color: transparent;
+    color: #29d9d5;
+    font-family: "Poppins";font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+}
+.bannerinfo button:hover{
+background-color: #29d9d5;
+color: #000;
+}
+footer{
+    background-color: #000;
+    display: flex;
+}
+footer .div1 h3{
+    font-size: 25px;
+    font-family: "Poppins";
+    color: #ffffff;
+}
