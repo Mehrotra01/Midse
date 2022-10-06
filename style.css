@@ -181,12 +181,76 @@ font-family: "Poppins";
 background-color: #29d9d5;
 color: #000;
 }
-footer{
-    background-color: #000;
-    display: flex;
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    background-color: black;
 }
-footer .div1 h3{
-    font-size: 25px;
-    font-family: "Poppins";
-    color: #ffffff;
+
+#footer .innerfooter {
+    margin: 3rem auto;
+}
+
+#footer .innerfooter h3 {
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem auto;
+}
+
+#footer .innerfooter p {
+    font-size: 1.1rem;
+    color: rgb(207, 206, 206);
+    padding: 1rem auto;
+    line-height: 3;
+}
+
+
+/* #footer .innerfooter p i {
+    color: #29d9d5;
+    padding-right: 1rem;
+} */
+
+#footer .innerfooter .footericons {
+    padding-top: 1rem;
+}
+
+#footer .innerfooter .footericons a {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #29d9d5;
+    border: 2px solid #29d9d5;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+#footer .innerfooter .footericons a:hover {
+    background: #29d9d5;
+    color: black;
+}
+
+#footer .innerfooter form .inputemail {
+    width: 80%;
+    background: none;
+    font-size: 1rem;
+    text-transform: none;
+    color: rgb(207, 206, 206);
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #29d9d5;
+    border-radius: 2rem;
+}
+
+#footer .innerfooter form .pagebutton {
+    background: none;
+}
+
+#footer .innerfooter form .pagebutton:hover {
+    background-color: #29d9d5;
+    color: #111;
 }
